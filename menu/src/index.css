@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('./componentes/Assets/background.jpg') no-repeat center/cover;
+  
 }
 
 code {
