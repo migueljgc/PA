@@ -22,7 +22,7 @@ const GestionUsuario = () => {
                 <div className="usuario">
                     <div className="user-menu">
                         <div className="user-info">
-                            <img src='/src/componentes/Assets/pqrspng.png' alt="Foto de perfil" className="profile-picture" width="35%" height="40%" />
+                            <img src='/pqrspng.png' alt="Foto de perfil" className="profile-picture" width="35%" height="40%" />
                             <br />
                             <i className="fa fa-caret-down"></i>
                         </div>
@@ -33,7 +33,9 @@ const GestionUsuario = () => {
                         </div>
                     </div>
                 </div>
-                <div className="imag"><img src='/src/componentes/Assets/iconprofile.png' width="55%" height="60%" /></div>
+                <div className="imag">
+                    <img src="/iconprofile.png" alt="x" />
+                </div>
                 <div className="datos"></div>
             </div>
 
